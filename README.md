@@ -41,9 +41,15 @@
 
         9. Tratamento de exceções, parte 1
 
+            Aqui vagabundo mostrou algumas formas de se tratar exceções, claro que em quase todas tem seus pros e contras , mais  para mim a mais fácil e menos b.o é a tal da forma elegante.
+
         10. Tratamento de exceções, parte 2
 
+            Aqui ele explana ainda mais porque prefere a forma robusta.
+
         11. Before e After
+
+
 
         12. Ordem de execução dos testes
 
