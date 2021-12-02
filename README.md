@@ -49,9 +49,21 @@
 
         11. Before e After
 
+            @Before
+                Ele sempre vai instanciar tudo que você colocar antes da execução de cada teste
 
+            @After
+                Ele sempre vai instanciar tudo depois que já aconteceu o seu teste.
+
+            @BeforeClass
+                Ele só instância as paradas antes da execução da sua classe, ou seja antes de tudo até mesmo do @Before
+
+            @AfterClass
+                Ele só será instanciado ou chamado quando acabar a execução da sua class.
 
         12. Ordem de execução dos testes
+            Aqui ele mostra que tem algumas formas de se fazer o teste e que tem como ordenar a execução, mais se você respeitar o esquema do first você não vai precisar disso.
+            Mais se precisar é só mandar a anotação @FixMethodOrder(MethodSorters.NAME_ASCENDING) antes do nome da classe, e deixar os nomes dos seus métodos em ordem alfabética, o que também é um lixo.
 
         13. Desafio
 
