@@ -66,6 +66,7 @@
             Mais se precisar é só mandar a anotação @FixMethodOrder(MethodSorters.NAME_ASCENDING) antes do nome da classe, e deixar os nomes dos seus métodos em ordem alfabética, o que também é um lixo.
 
         13. Desafio
+            Aqui eu caguei e não fiz tudo não estava vendo "coisas" em paralelo e por isso não fiz mais não vi grandes problemas não.
 
         14. TDD, parte 1
 
