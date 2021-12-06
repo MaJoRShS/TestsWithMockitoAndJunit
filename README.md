@@ -69,6 +69,7 @@
             Aqui eu caguei e não fiz tudo não estava vendo "coisas" em paralelo e por isso não fiz mais não vi grandes problemas não.
 
         14. TDD, parte 1
+            see
 
         15. TDD, parte 2
 
