@@ -75,6 +75,9 @@
             Detalhe: Sempre começar com as menores partes do código e ir adicionando complexidade no decorrer do caminho.
 
         15. TDD, parte 2
+            Aqui ele mostrou ainda mais como fazer o TDD, o esquema é simples, começa pelo Teste, escreve o teste o mais simples possivel, e ai sim cria a classe que vai ser testada, claro que como você previu antes vai criar a classe para passar no teste.
+            depois disso cria a classe te ve se passou no teste.
+            ai no ultimo passo ve se precisa refatorar o código.
 
         16. TDD, parte 3
 
