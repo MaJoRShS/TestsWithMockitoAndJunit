@@ -73,6 +73,7 @@
             É uma mudança na mente para começar a pensar no que o seu código vai ou deve fazer para depois fazer o código propriamente dito.
 
             Detalhe: Sempre começar com as menores partes do código e ir adicionando complexidade no decorrer do caminho.
+            see
 
         15. TDD, parte 2
             Aqui ele mostrou ainda mais como fazer o TDD, o esquema é simples, começa pelo Teste, escreve o teste o mais simples possivel, e ai sim cria a classe que vai ser testada, claro que como você previu antes vai criar a classe para passar no teste.
