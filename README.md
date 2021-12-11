@@ -81,6 +81,7 @@
             ai no ultimo passo ve se precisa refatorar o código.
 
         16. TDD, parte 3
+            Aqui o Amigo mostra um problema que existe no TDD, que é o caso de testes conflitantes,por exemplo criamos dois teste que de certa forma acabam por interferir um no outro, segundo ele ainda via tentar mostrar como podemos contornar isso mais ainda assim parece ser uma gambis.
 
         17. @Ignore e Assumptions
 
