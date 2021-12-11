@@ -69,6 +69,10 @@
             Aqui eu caguei e não fiz tudo não estava vendo "coisas" em paralelo e por isso não fiz mais não vi grandes problemas não.
 
         14. TDD, parte 1
+            Basicamente aqui o esquema é sempre fazer os tester primeiro antes de começar a codar, nesse caso você começa a pensar primeiro em como o código deve funcionar e depois você vai implementando a classe que deve ser testada.
+            É uma mudança na mente para começar a pensar no que o seu código vai ou deve fazer para depois fazer o código propriamente dito.
+
+            Detalhe: Sempre começar com as menores partes do código e ir adicionando complexidade no decorrer do caminho.
 
         15. TDD, parte 2
 

@@ -1,4 +1,4 @@
-package service;
+package services;
 
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
@@ -10,7 +10,6 @@ import org.junit.*;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
