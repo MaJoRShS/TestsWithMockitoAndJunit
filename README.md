@@ -84,6 +84,13 @@
             Aqui o Amigo mostra um problema que existe no TDD, que é o caso de testes conflitantes,por exemplo criamos dois teste que de certa forma acabam por interferir um no outro, segundo ele ainda via tentar mostrar como podemos contornar isso mais ainda assim parece ser uma gambis.
 
         17. @Ignore e Assumptions
+            O @Ignore basicamente não deixa o teste ser executado mais isso é uma bosta porque ai você literalmente não tem esse teste é como se o código estivesse comentado.
+
+            o Esquema real é usarr o Assume
+
+            esse Assume tem quase as mesmas propriedades do Assert, só que ele serve para meio que validar se o recurso que você necessita está disponível para poder iniciar o teste, caso contrario o teste nem inicia.
+
+            ai fica na boa é tipo um @Before porque ele executa essa parada antes do inicio do teste, mais não antes de todos os testes e sim do teste que foi incluído.
 
         18. Testes parametrizáveis
 
