@@ -97,7 +97,10 @@
 
             dai cria um teste generico passando as variaveis , ai já era ele roda tranquilo.
 
-        19. Matchers Próprios
+        19. Matchers Próprios,
+            Aqui é básico ele criou um Matcher dele, que devolve uma parada própria, mais isso é tipo fazer exception personalizada, é a mesma coisa que nada.
+
+            Porém tem suas vantagens de sempre retornar uma mensagem melhor descrita, e no que diz respeito aos testes é bem interessante a parada de criar o seu próprio matcher.
 
         20. Desafio
 

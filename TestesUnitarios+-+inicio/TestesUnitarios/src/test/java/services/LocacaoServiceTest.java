@@ -7,11 +7,17 @@ import br.ce.wcaquino.exception.FilmeSemEstoqueException;
 import br.ce.wcaquino.exception.LocadoraException;
 import br.ce.wcaquino.servicos.LocacaoService;
 import br.ce.wcaquino.utils.DataUtils;
+import matchers.DiaSemanaMatcher;
+import matchers.MatchersProprios;
 import org.junit.*;
 import org.junit.rules.ErrorCollector;
 import org.junit.rules.ExpectedException;
 
 import javax.xml.crypto.Data;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.chrono.ChronoLocalDate;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
@@ -170,7 +176,7 @@ public class LocacaoServiceTest {
 	}
 
 	@Test
-	public void deveDevolverNaSegundaAoAlugarNoSabado() throws FilmeSemEstoqueException, LocadoraException {
+	public void deveDevolverNaSegundaAoAlugarNoSabado() throws FilmeSemEstoqueException, LocadoraException, ParseException {
 		Assume.assumeTrue(DataUtils.verificarDiaSemana(new Date(), Calendar.SATURDAY));
 
 		//cenario
@@ -181,8 +187,12 @@ public class LocacaoServiceTest {
 		Locacao locacao = service.alugarFilme(usuario, filmes);
 
 		//verificação
-		boolean ehSegunda = DataUtils.verificarDiaSemana(locacao.getDataRetorno(), Calendar.MONDAY);
-		Assert.assertFalse(ehSegunda);
+//		boolean ehSegunda = DataUtils.verificarDiaSemana(locacao.getDataRetorno(), Calendar.MONDAY);
+//		Assert.assertTrue(ehSegunda);
+//		Assert.assertThat(locacao.getDataRetorno(), new DiaSemanaMatcher(Calendar.MONDAY));
+//		Assert.assertThat(locacao.getDataRetorno(), MatchersProprios.caiEm(Calendar.SUNDAY));
+		Assert.assertThat(locacao.getDataRetorno(), MatchersProprios.caiNumaSegunda());
 	}
+
 
 }
