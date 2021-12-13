@@ -93,6 +93,9 @@
             ai fica na boa é tipo um @Before porque ele executa essa parada antes do inicio do teste, mais não antes de todos os testes e sim do teste que foi incluído.
 
         18. Testes parametrizáveis
+            basicamente aqui o esquema foi o seguinte,criei uma classe de testes e usando a Anotação @RunWith(Parameterized.class) eu crio uma parametrização dos testes que eu vou fazer,crio os parametros que vou testar anoto eles com @Parameterized.Parameter os parâmetros e se for mais de 1 @Parameterized.Parameter(value = 1) NUMERO_DA_ORDEM_DE_EXECUÇÃO.
+
+            dai cria um teste generico passando as variaveis , ai já era ele roda tranquilo.
 
         19. Matchers Próprios
 
