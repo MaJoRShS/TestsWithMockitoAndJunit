@@ -108,3 +108,4 @@
             Além do mais tem 4 anos que esse curso foi gravado.
 
         21. Suíte de testes
+            Aqui ele basicamente mostrou que tem como criar uma suite de teste , uma classe que vai executar todas as suas outras classes de teste e que basicamente não serve de nada, porque na real você acaba tendo que ficar declarando manualmente todas as suas classes que devem ser testadas, mo bosta.
