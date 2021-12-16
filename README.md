@@ -103,5 +103,8 @@
             Porém tem suas vantagens de sempre retornar uma mensagem melhor descrita, e no que diz respeito aos testes é bem interessante a parada de criar o seu próprio matcher.
 
         20. Desafio
+            Aqui o desafio dele deve ter algum erro porque simplesmente não roda utilizando o parâmetro que ele passou, pode ser uma atualização da lib ou qualquer coisa do tipo mais do jeito que passou na aula não vai.
+
+            Além do mais tem 4 anos que esse curso foi gravado.
 
         21. Suíte de testes
