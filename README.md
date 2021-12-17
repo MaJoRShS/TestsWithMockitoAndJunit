@@ -109,3 +109,40 @@
 
         21. Suíte de testes
             Aqui ele basicamente mostrou que tem como criar uma suite de teste , uma classe que vai executar todas as suas outras classes de teste e que basicamente não serve de nada, porque na real você acaba tendo que ficar declarando manualmente todas as suas classes que devem ser testadas, mo bosta.
+
+
+    Seção 3: DataBuilders
+
+        22. Criação de dados para os testes
+            Encheu linguiça, aqui ele mostrou a porra de uma lib de builder que ele montou, e foda-se não quero isso.
+
+        23. BuilderMaster
+            Encheu linguiça ².
+
+    Seção 4: Análise de Cobertura
+
+        24. Análise de Cobertura
+        Aqui é sobre a cobertura de linhas de código, que basicamente não é muito relevante , podemos buscar o 100% mais nem sempre é tão importante assim.
+
+    Seção 5: Mocks
+
+        25. Dependências Externas
+            Basicamente aqui inserimos uma linha de código e quebramos a porra toda, porque ao invés de um teste unitário virou um teste integrado, porque deveria acessar o banco de dados mais não tem banco ainda.
+
+        26. Objetos Falsos
+
+        27. Mockito
+
+        28. Gravando Expectativas
+
+        29. Verificando Comportamentos
+
+        30. Verificando Comportamentos, parte 2
+
+        31. Anotações
+
+        32. Lançando Exceções
+
+        33. Capturando Argumentos
+
+        34. Spy
